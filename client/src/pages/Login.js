@@ -73,6 +73,17 @@ export default function Login(){
                             <button disabled={loading} className="btn btn-primary col-12 mb-4">{loading ? "Waiting...":"Login"}</button>
 
                         </form>
+                        <div className='cred'> 
+                            Use this credentials to login :
+                        </div>
+                            <div>
+                            Email: healthytraitors1029@gmail.com
+                            </div>      
+                            <div>
+                            Password: hhhhhh
+                            </div>                      
+                        
+
                         {/* <Link to="/auth/forgot-password">Forgot Password</Link> */}
                     </div>
                 </div>

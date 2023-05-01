@@ -63,6 +63,15 @@ export default function Register(){
                             <button disabled={loading} className="btn btn-primary col-12 mb-4">{loading ? "Waiting...":"Register"}</button>
 
                         </form>
+                        <div className='cred'> 
+                            Use this credentials to login :
+                        </div>
+                            <div>
+                            Email: healthytraitors1029@gmail.com
+                            </div>      
+                            <div>
+                            Password: hhhhhh
+                            </div> 
                     </div>
                 </div>
             </div>
