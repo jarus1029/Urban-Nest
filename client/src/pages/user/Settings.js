@@ -42,7 +42,8 @@ export default function Settings(){
             <div className="row">
                 <div className="col-lg-8 offset-lg-2 mt-2">
 
-                <form onSubmit={handleSubmit}>
+                <form 
+                onSubmit={handleSubmit}>
                 <input
                   type="password"
                   placeholder="Enter your password"

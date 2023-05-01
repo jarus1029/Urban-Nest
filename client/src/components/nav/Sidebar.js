@@ -18,9 +18,9 @@ export default function Sidebar() {
         <li class="nav-item">
             <NavLink className="nav-link" to="/user/profile">Profile</NavLink>
         </li>
-        <li class="nav-item">
+        {/* <li class="nav-item">
             <NavLink className="nav-link" to="/user/settings">Settings</NavLink>
-        </li>
+        </li> */}
     </ul>
     </>
     )

@@ -53,7 +53,7 @@ function App() {
             <Route path="ad/create/rent/house" element={<RentHouse />} />
             <Route path="ad/create/rent/land" element={<RentLand />} />
             <Route path="user/profile" element={<Profile />} />
-            <Route path="user/settings" element={<Settings />} />
+            {/* <Route path="user/settings" element={<Settings />} /> */}
             <Route path="user/ad/:slug" element={<AdEdit/>} />
             <Route path="user/wishlist" element={<Wishlist />} />
             <Route path="user/enquiries" element={<Enquiries />} />
