@@ -36,7 +36,7 @@ export default function Login(){
                  : navigate("/dashboard");
                 // navigate("/")
             }
-            console.log(data);
+            // console.log(data);
         } catch (err) {
             console.log(err);
             toast.error("Something went wrong Try Again")
