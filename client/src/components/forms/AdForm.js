@@ -51,7 +51,7 @@ export default function AdForm ({action,type}) {
                 toast.success("Ad created Successfully");
                 setAd({...ad,loading:false});
                 //reload page on 
-                window.location.href="/dashboard";
+                navigate("/dashboard");
             }
         } catch (err) {
             console.log(err);

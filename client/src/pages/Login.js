@@ -74,7 +74,7 @@ export default function Login(){
 
                         </form>
                         <div className='cred'> 
-                            Use this credentials to login :
+                            Use this credentials to Login :
                         </div>
                             <div>
                             Email: healthytraitors1029@gmail.com
