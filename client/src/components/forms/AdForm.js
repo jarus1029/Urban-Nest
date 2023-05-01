@@ -33,7 +33,7 @@ export default function AdForm ({action,type}) {
         try {
             setAd({...ad,loading:true})
             const {data}=await axios.post('/ad',ad)
-            console.log('adcreate response =>',data);
+            // console.log('adcreate response =>',data);
             if(data?.error){
                 toast.error(data.error);
                 setAd({...ad,loading:false});
