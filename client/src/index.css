@@ -1,0 +1,20 @@
+.active{
+    color:white;
+    background-color: #2196f3;
+}
+a {
+    cursor: pointer;
+}
+.hoverable:hover{
+    transform: scale(1.01);
+    box-shadow: 0.4rem 04rem 1rem rgba(0,0,0,0.15) !important;
+}
+
+.react-photo-gallery--gallery img{
+    object-fit: cover;
+    height: 500px !important;
+}
+.square{
+    border-radius: 0px;
+    margin: 2.5px;
+}
