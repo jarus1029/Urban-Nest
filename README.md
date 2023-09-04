@@ -40,5 +40,7 @@ Urban-Nest is a MERN dynamic website that helps users to sell or rent properties
 
 - User dashboard (for both buyers and sellers).
 
+Here's the deployed project link : https://urban-nest.netlify.app/
+
 
 
