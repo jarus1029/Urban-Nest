@@ -4,7 +4,7 @@
 Urban-Nest is a MERN dynamic website that helps users to sell or rent properties.Upload property images, precise location data using Google Places API and descriptions.Benefit from secure registrations using AWS SES service.It handles user data using MongoDB, ensuring scalability and reliability.
 
 
-## Here are some of the features of Urban-Nest :
+## Here are some of the key features of Urban-Nest :
 
 - Complete login registration system with email confirmation and reset passwords.
 
